@@ -1,5 +1,5 @@
 body {
-  background-image: url(Touman/1302159.jpg);
+  background-image: url(/Background/Touman\ Reunida.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -23,9 +23,17 @@ button {
   border-radius: 5px;
   border-color: #ffd700;
   cursor: pointer;
+  height: 50px;
 }
 
 #quiz {
   display: none;
   text-align: center;
+}
+
+.answers{
+  flex-direction: column;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: none;
 }
